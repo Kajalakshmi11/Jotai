@@ -10,9 +10,9 @@ const NameInput = () => {
     <div>
       <label>Name: </label>
       <input
-        type="text"
+        type="text" 
         value={value}
-        onChange={(e) => dispatch(name(e.target.value))}
+        onChange={(e) => dispatch(name(e.target.value ))}
       />
     </div>
   );
